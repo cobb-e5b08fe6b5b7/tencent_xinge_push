@@ -1,0 +1,25 @@
+{
+    "name": "smallsea/xinge_push",
+    "description": "tencent xinge push sdk;",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smallsea",
+            "email": "simple.smallsea@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tencent\\xinge\\": "src",
+            "tencent\\xinge\\http\\": "src/http",
+            "tencent\\xinge\\auth\\": "src/auth",
+            "tencent\\xinge\\message\\": "src/message"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
